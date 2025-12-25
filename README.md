@@ -20,11 +20,18 @@ The data and figures were generated as part of an academic computational study a
 │   └── MoS2_pdos_total.csv   # Total density of states data (CSV format)
 │
 ├── pdos/
-│   ├── .lowdin                # Lowdin charge projection file
-│   ├── MoS2_pdos.png          # PDOS plot
-│   ├── mos2.pdos_atm#1(Mo)_wfc#2(s)
-│   ├── mos2.pdos_atm#1(Mo)_wfc#3(p)
-│   ├── mos2.pdos_atm#1(Mo)_wfc#4(d)
-│   └── mos2.pdos_atm#2(S)_wfc#1(s)
+pdos/
+├── .lowdin                         # Lowdin charge projection file
+├── MoS2_pdos.png                   # PDOS plot
+├── mos2.pdos_atm#1(Mo)_wfc#2(s)
+├── mos2.pdos_atm#1(Mo)_wfc#3(p)
+├── mos2.pdos_atm#1(Mo)_wfc#4(d)
+├── mos2.pdos_atm#2(S)_wfc#1(s)
+├── mos2.pdos_atm#2(S)_wfc#2(p)
+├── mos2.pdos_atm#3(S)_wfc#1(s)
+├── mos2.pdos_atm#3(S)_wfc#2(p)
+├── mos2.pdos_tot                  # Total DOS
+├── pdos.in                        # PDOS input file
+└── pdos.out                       # PDOS output log
 │
 └── README.md
